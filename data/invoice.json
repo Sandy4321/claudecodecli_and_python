@@ -1,0 +1,13 @@
+{
+  "number": "INV-2026-042",
+  "customer": "Acme Ltd",
+  "currency": "USD",
+  "discount_pct": 10,
+  "tax_pct": 8.25,
+  "items": [
+    {"description": "Consulting hours", "qty": 12, "unit_price": 95.00},
+    {"description": "Workshop materials", "qty": 3, "unit_price": 19.99},
+    {"description": "Travel", "qty": 1, "unit_price": 240.50}
+  ],
+  "notes": "Payment due within 30 days."
+}

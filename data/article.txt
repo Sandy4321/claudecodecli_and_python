@@ -1,0 +1,9 @@
+Why small tools beat big prompts
+
+When you ask a language model to add up a column of numbers, it will usually get close. Close is not good enough for an invoice, a deadline, or a medical dose. The fix is simple: give the model a small, boring, well-tested tool and tell it when to use that tool.
+
+A skill is exactly that bargain. The description tells the model when the skill applies. The body tells it how to do the job. The script does the part that must be exact. The model reads the question, picks the skill, runs the script, and explains the answer in plain words.
+
+This division of labour has a second benefit that is easy to miss. Because the script lives in a file, you can test it like any other code, review it in a pull request, and fix it once for every future conversation. The prompt stays short, the context window stays free, and the answers stop drifting.
+
+Start with one skill. Watch where the model hesitates. Then write the next one.

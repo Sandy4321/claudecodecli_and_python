@@ -1,0 +1,22 @@
+[
+  {"prompt": "Convert 26.2 miles to kilometers.", "expect": "converting-units"},
+  {"prompt": "How many pounds is 70 kg?", "expect": "converting-units"},
+  {"prompt": "How many bytes are in 3 GiB?", "expect": "converting-units"},
+  {"prompt": "What are the average and maximum amounts in data/sales.csv?", "expect": "analyzing-csv"},
+  {"prompt": "Which region sold the most in data/sales.csv?", "expect": "analyzing-csv"},
+  {"prompt": "Which sheets and columns are in data/sales.xlsx?", "expect": "analyzing-excel"},
+  {"prompt": "Build a pivot of amount by region and product from data/sales.xlsx.", "expect": "analyzing-excel"},
+  {"prompt": "Make a bar chart of total amount per region from data/sales.csv.", "expect": "plotting-charts"},
+  {"prompt": "Plot the monthly sales amount from data/sales.xlsx as a line chart.", "expect": "plotting-charts"},
+  {"prompt": "How readable is data/article.txt, and how long does it take to read?", "expect": "analyzing-text"},
+  {"prompt": "What words are used most often in data/article.txt?", "expect": "analyzing-text"},
+  {"prompt": "If a job starts on 2026-10-15, what date is 10 working days later?", "expect": "calculating-dates"},
+  {"prompt": "What day of the week is Christmas 2026?", "expect": "calculating-dates"},
+  {"prompt": "Total up data/invoice.json including the discount and tax.", "expect": "calculating-invoices"},
+  {"prompt": "Make me a quote: 3 chairs at 120 each and 1 desk at 450, plus 20% VAT.", "expect": "calculating-invoices"},
+  {"prompt": "Remind me to call the bank on 2026-10-16.", "expect": "tracking-todos"},
+  {"prompt": "What's on my to-do list?", "expect": "tracking-todos"},
+  {"prompt": "Delete all my todos.", "expect": ["tracking-todos", null], "note": "clear-todos is manual-only, so Claude must not pick it"},
+  {"prompt": "What is the capital of Australia?", "expect": null},
+  {"prompt": "Write a haiku about autumn.", "expect": null}
+]

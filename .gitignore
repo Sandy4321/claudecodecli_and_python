@@ -1,0 +1,23 @@
+# Python's compiled files
+__pycache__/
+*.pyc
+
+# Files the lessons create on your own computer
+charts/
+reports/
+invoice.md
+summary.txt
+data/todos.json
+data/practice_todos.json
+data/report.txt
+tools/routing_report.json
+tools/model_mode_report.json
+tools/harness_profile_report.json
+tools/harness_profile_orders.csv
+
+# Personal Claude Code settings
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Word's lock files while a document is open
+~$*

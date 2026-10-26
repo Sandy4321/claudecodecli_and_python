@@ -1,0 +1,4 @@
+# Packages for excel_tool.py. Install into the activated virtual environment:
+#   python -m pip install -r requirements.txt
+pandas>=2.2
+openpyxl>=3.1
