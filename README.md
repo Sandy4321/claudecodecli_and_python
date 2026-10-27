@@ -365,3 +365,8 @@ Details: [reference.md](reference.md)
 [Agent SDK skills](https://code.claude.com/docs/en/agent-sdk/skills) ·
 [Agent SDK custom tools](https://code.claude.com/docs/en/agent-sdk/custom-tools) ·
 [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
+
+## License
+
+Copyright (c) 2026 Sander Stepanov. All rights reserved. No one may copy, change, publish or use any part
+of this repository without written permission. See [LICENSE](LICENSE).
