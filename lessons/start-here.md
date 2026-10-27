@@ -2,8 +2,9 @@
 
 Most people use Claude Code like a chat: they type a request, read the answer, and hope it is right.
 This course takes you much further. When you finish it, you can **build, test and control an AI
-agent that does real work with your own Python code**. You need only Windows and a Claude Pro
-subscription. You will not just know about these things. You will have run each one yourself and
+agent that does real work with your own Python code**. You can also **call Claude Code from your own
+Python programs instead of the model's API**, and you know when that gives better answers than a plain
+model call, and when it doesn't. You need only Windows and a Claude Pro subscription. You will not just know about these things. You will have run each one yourself and
 seen the real output, and you keep working code that you can copy into your own projects.
 
 ## What you will be able to do

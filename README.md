@@ -1,12 +1,26 @@
 # Claude Code Skills Tutor
 
-This course teaches you to build **an agent with many skills** in the Claude Code CLI. You will learn:
+This course teaches two things, with the Claude Code CLI and Python, on Windows, with only a Claude
+Pro subscription.
+
+**1. An agent with many skills.** You learn:
 
 - how Claude decides which skill fits your request, and
 - how a skill's text makes Claude run **functions you wrote in Python files**.
 
-Everything in this course runs. The project folder contains a working agent with 9 skills, tests,
-and tools that check whether Claude picks the right skill.
+**2. Claude Code from your own Python programs, instead of a direct call to the model's API.** You learn:
+
+- how to use it as a plain LLM call, with `claude -p` or the Agent SDK, with your Pro login and no API
+  key;
+- why it is often **better** than a plain LLM call: Claude Code wraps the model in a harness (the agent
+  loop, tools, skills and rules), so hard requests come back right. On a 3,000-row table, Claude Code
+  was right 4 times out of 4, a plain call once;
+- how to trim the harness, so easy requests stay cheap, and when a plain call is the better choice
+  (Lesson 6, "The big idea").
+
+Everything in this course runs. The project folder contains a working agent with 9 skills, Python
+programs that call Claude Code both ways, tests, and tools that check whether Claude picks the right
+skill and measure what a run costs.
 
 **New here?** Read [Start here: what this course gives you](lessons/start-here.md) first. At the end
 come [What you have learned](lessons/summary.md), a one-page [cheat sheet](lessons/cheat-sheet.md), and
@@ -63,7 +77,7 @@ Read this list once. The lessons use these words without explaining them again.
 | 3 | [Skills that run Python code](lessons/03-skills-that-run-python.md) | How SKILL.md tells Claude to run your Python, and five ready-made patterns |
 | 4 | [Designing an agent with many skills](lessons/04-designing-many-skills.md) | Planning many skills so they don't compete; naming; sharing code |
 | 5 | [Testing skills that run Python](lessons/05-testing-skill-routing.md) | Four kinds of tests: unit tests of the Python code, the linter, the preview, and real Claude runs. How to read a failure |
-| 6 | [Your own agent with the Agent SDK](lessons/06-agent-sdk-python.md) | Running Claude Code from Python; your functions as tools; Claude as an LLM with Pro; when to use `claude -p` and when the SDK; reasoning effort; effort per skill |
+| 6 | [Your own agent with the Agent SDK](lessons/06-agent-sdk-python.md) | Claude Code instead of a direct model call: when its harness wins, and how to trim it; running Claude Code from Python; your functions as tools; Claude as an LLM with Pro; when to use `claude -p` and when the SDK; reasoning effort; effort per skill |
 | 7 | [Skills that need pip packages](lessons/07-skills-with-pip-packages.md) | Skills that use pandas and matplotlib from your venv |
 | 8 | [Messy input: Claude reads, Python computes](lessons/08-messy-input-and-arguments.md) | A calculator skill for requests in any order, with words and typos; `$ARGUMENTS`, `$0`, `$1` explained |
 | 9 | [Exercises](lessons/09-exercises.md) | Eight hands-on exercises, from 5 minutes to a stretch goal |
