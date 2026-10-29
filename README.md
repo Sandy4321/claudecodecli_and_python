@@ -1,4 +1,4 @@
-# Claude Code Skills Tutor
+# Claude Code CLI as an LLM API Alternative, and Skills That Run Python
 
 This course teaches two things, with the Claude Code CLI and Python, on Windows, with only a Claude
 Pro subscription.
